@@ -5,18 +5,11 @@ package kolekcjaplyt;
  */
 public class Filmy extends Kolekcja{
     
-    /*
-    Pola jakie zawiera klasa Filmy
-    */
     private String typfilmu;
     private String nazwafilmu;
     private String rezyser;
     private int naklad;
     private int rok;
-
-    /*
-    Settery i gettery podanych pól
-    */
 
     /**
      *  Metoda pobierająca Typfilmu

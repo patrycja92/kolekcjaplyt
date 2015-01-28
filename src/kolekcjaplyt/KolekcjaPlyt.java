@@ -1,17 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package kolekcjaplyt;
 
 /**
- *
- * @author Patrycja
+ * Klasa służy do reprezentowania Kolekcji Płyt
  */
 public class KolekcjaPlyt {
 
     /**
+     * Tworzy obiekt klasy KolekcjaPlyt
      * @param args the command line arguments
      */
     public static void main(String[] args) {
@@ -25,7 +20,5 @@ public class KolekcjaPlyt {
         Filmy film = new Filmy();
         System.out.println(film.ustawWartosci(1997, 1200000,"horror" ,"Zejscie" , "Robert de niro"));
         Gry g = new Gry();
-    }
-        
-    
+    }  
 }

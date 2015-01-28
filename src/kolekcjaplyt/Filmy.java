@@ -6,10 +6,10 @@
 package kolekcjaplyt;
 
 /**
- * Ta klasa dziedziczy po klasie Kolekcja
- * Zawiera settery i gettery podanych pól 
+ * Ta klasa do reprezentowania filmow
  */
 public class Filmy extends Kolekcja{
+    
     /*
     Pola jakie zawiera klasa Filmy
     */
@@ -22,50 +22,98 @@ public class Filmy extends Kolekcja{
     /*
     Settery i gettery podanych pól
     */
+
+    /**
+     *  Metoda pobierająca Typfilmu
+     * @return typfilmu
+     */
     public String getTypfilmu() {
         return typfilmu;
     }
 
+    /**
+     *  Metoda pobierająca Nazwafilmu
+     * @return nazwafilmu
+     */
     public String getNazwafilmu() {
         return nazwafilmu;
     }
 
+    /**
+     *  Metoda pobierająca Rezyser
+     * @return rezyser
+     */
     public String getRezyser() {
         return rezyser;
     }
 
+    /**
+     *  Metoda pobierająca Naklad
+     * @return naklad
+     */
     public int getNaklad() {
         return naklad;
     }
 
+    /**
+     * Metoda pobierająca Rok
+     * @return rok
+     */
     public int getRok() {
         return rok;
     }
 
+    /**
+     *  Metoda ustawiająca Typfilmu
+     * @param typfilmu
+     */
     public void setTypfilmu(String typfilmu) {
         this.typfilmu = typfilmu;
     }
 
+    /**
+     *  Metoda ustawiająca Nazwafilmu
+     * @param nazwafilmu
+     */
     public void setNazwafilmu(String nazwafilmu) {
         this.nazwafilmu = nazwafilmu;
     }
 
+    /**
+     *  Metoda ustawiająca Rezyser
+     * @param rezyser
+     */
     public void setRezyser(String rezyser) {
         this.rezyser = rezyser;
     }
 
+    /**
+     *  Metoda ustawiająca Naklad
+     * @param naklad
+     */
     public void setNaklad(int naklad) {
         this.naklad = naklad;
     }
 
+    /**
+     *  Metoda ustawiająca Rok
+     * @param rok
+     */
     public void setRok(int rok) {
         this.rok = rok;
     }
     
-    /*
-    Metoda ustawiająca wartości dotyczące danego filmu. 
-    Zwraca wartości ustawione przez użytkownika.
-    */
+    /**
+     *  Metoda ustawiająca wartości dotyczące danego filmu. 
+     *  Zwraca wartości ustawione przez użytkownika.
+     * @param rok
+     * @param naklad
+     * @param typfilmu
+     * @param nazwafilmu
+     * @param rezyser
+     * @return
+     */
+    
     public String ustawWartosci(int rok , int naklad, String typfilmu, String nazwafilmu , String rezyser)
     {
         return rok + " " +naklad + " " + typfilmu + " " + nazwafilmu + " " + rezyser;

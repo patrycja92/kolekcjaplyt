@@ -11,6 +11,9 @@ package kolekcjaplyt;
  */
 public class Kolekcja {
     
+    /**
+    * Tworzy obiekt klasy Kolekcja
+    */
     private String nazwaplyty;
     private int iloscplyt;
     private String opis;

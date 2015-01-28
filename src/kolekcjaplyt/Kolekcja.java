@@ -15,7 +15,6 @@ public class Kolekcja {
     private int iloscplyt;
     private String gatunek;
     private String wydawnictwo;
-    
 
     public String getNazwaplyty() {
         return nazwaplyty;

@@ -10,12 +10,13 @@ package kolekcjaplyt;
  * @author Patrycja
  */
 public class KolekcjaPlyt {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
+    
+    public static void main(String[] args) 
+    {
+        Zdjecia zdjecia = new Zdjecia();
+        System.out.print(zdjecia.ustawWartosciZdjecia(1994, "Rodzinne", "NadMorzem", "jpeg"));
+        Filmy film = new Filmy();
+        System.out.print(film.ustawWartosci(1997, 1200000,"horror" ,"Zejscie" , "Robert de nito"));
     
     }
         

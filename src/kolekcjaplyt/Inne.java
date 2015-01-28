@@ -10,6 +10,6 @@ package kolekcjaplyt;
  *
  * @author Spooky
  */
-public class Inne {
+public class Inne extends Kolekcja{
     
 }

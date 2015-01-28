@@ -13,8 +13,15 @@ public class Kolekcja {
     
     private String nazwaplyty;
     private int iloscplyt;
-    private String gatunek;
-    private String wydawnictwo;
+    private String opis;
+
+    public String getOpis() {
+        return opis;
+    }
+
+    public void setOpis(String Opis) {
+        this.opis = Opis;
+    }
 
     public String getNazwaplyty() {
         return nazwaplyty;
@@ -24,14 +31,6 @@ public class Kolekcja {
         this.nazwaplyty = nazwaplyty;
     }
 
-    public String getWydawnictwo() {
-        return wydawnictwo;
-    }
-
-    public void setWydawnictwo(String wydawnictwo) {
-        this.wydawnictwo = wydawnictwo;
-    }
-   
     public int getIloscplyt() {
         return iloscplyt;
     }
@@ -39,14 +38,5 @@ public class Kolekcja {
     public void setIloscplyt(int iloscplyt) {
         this.iloscplyt = iloscplyt;
     }
-
-    public String getGatunek() {
-        return gatunek;
-    }
-
-    public void setGatunek(String gatunek) {
-        this.gatunek = gatunek;
-    }
-    
     
 }

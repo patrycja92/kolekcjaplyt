@@ -1,7 +1,7 @@
 package kolekcjaplyt;
 
 /**
- * Ta klasa do reprezentowania filmow
+ * Klasa służy do reprezentowania Filmow
  */
 public class Filmy extends Kolekcja{
     

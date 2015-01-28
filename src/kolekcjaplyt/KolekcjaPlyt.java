@@ -16,7 +16,10 @@ public class KolekcjaPlyt {
      */
     public static void main(String[] args) {
         
-    
+        Kolekcja kol =  new Kolekcja();
+        Muzyka myz = new Muzyka();
+        myz.setNazwaplyty("test");
+        System.out.println(myz.getNazwaplyty());
     }
         
     
